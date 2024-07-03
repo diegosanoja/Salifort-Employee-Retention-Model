@@ -553,7 +553,8 @@ the following:
 Note: for the binary features which are promotion_last_5years (if the employee
 was promoted or not over the last 5 years) and work_accident (if the employee
 had or not an accident in the office), the percentage of observations for each
-value was given for each option of the target variable below the bar chart using pandas series.
+value was given for each option of the target variable below the bar chart
+using pandas series.
 
   + Work Accidents: workers who suffered accidents in the office are more likely
   to leave the company.
@@ -604,9 +605,9 @@ revealed the following:
 
   + Capitalizing the classes.
 
-    + Building a new data frame named df_dummy which has binary features for
-    each class of the categorical features using the get_dummies function in the
-    df1 object.
+  + Building a new data frame named df_dummy which has binary features for each
+  class of the categorical features using the get_dummies function in the df1
+  object.
 
 ## Construct Stage, first run.
 
@@ -624,9 +625,13 @@ There are many classification models that could be built to achieve the goal.
 Some of those are:
 
 1. Logistic regression model.
+
 2. Bayes machine learning model.
+
 3. Decision Tree.
+
 4. Random Forests.
+
 5. XGBoosting.
 
 From the list above, the Logistic model can't be used since 2 of its
@@ -757,7 +762,7 @@ their data frames revealed the following insights:
   + Satisfaction level and tenure years of an employee. Those visuals and their
   data frames helped to discover the following information:
 
-    -. The boxplots of employees who stayed have little to no outliers, and most
+    - The boxplots of employees who stayed have little to no outliers, and most
     of the boxes except for the group of 5 and 6 years, have both the medians 
     (the middle line in the box) and first quartiles (bottom of the box) whose
     value of satisfaction is higher 0.5.
